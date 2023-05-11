@@ -4,7 +4,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import { reducer } from "./reducer";
 
 const store = configureStore({
-    reducer:reducer,
+  reducer: reducer,
 });
-// we export the store to be added to our index file in the provider function 
+// we export the store to be added to our index file in the provider function
 export default store;

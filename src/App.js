@@ -5,7 +5,7 @@ to narrrow down the word selection of the app. */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import GetWord from './Components/GetWordIndexes';
-import DictionaryFileredWord from './Components/dictionaryFilter';
+import DictionaryFileredWord from './Components/DictionaryFilter';
 import Heading from './Components/Heading';
 import UserInput from './Components/UserInput';
 
