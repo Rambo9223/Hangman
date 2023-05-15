@@ -8,7 +8,7 @@ import { Button } from "react-bootstrap";
 import * as Icon from "react-bootstrap-icons";
 // we import the below components to pass props to them
 import WordDisplay from "./WordDisplay";
-import HangmanDisplay from "./HangmanDisplay";
+import HangmanImage from "./HangmanImage";
 import Game from "./Game";
 
 // mapStateToProps so we can access the word in the store state
@@ -236,7 +236,7 @@ if (props.word[0] !== undefined) {
         game={playing.guessLeft}
         guessList={playing.guessList}
         />
-        <HangmanDisplay num={playing.guessLeft} />
+        <HangmanImage num={playing.guessLeft} />
         <ToggleRestart />
 
         <div>You have {playing.guessLeft} guesses left!</div>

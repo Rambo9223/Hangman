@@ -5,7 +5,7 @@ to narrrow down the word selection of the app. */
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import GetWord from './Components/GetWordIndexes';
-import DictionaryFileredWord from './Components/DictionaryFilter';
+import DictionaryFilteredWord from './Components/DictionaryFilteredWord';
 import Heading from './Components/Heading';
 import UserInput from './Components/UserInput';
 
@@ -14,7 +14,7 @@ function App() {
     <>
     <div className='App-header'>
     <Heading/>
-    <DictionaryFileredWord index={GetWord()}/>
+    <DictionaryFilteredWord index={GetWord()}/>
     <UserInput/>
     </div>
     </>

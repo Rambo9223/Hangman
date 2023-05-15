@@ -28,7 +28,7 @@ hangman10,
 and returns an image and the respective index.
 if the guesses left number changes ie(wrong guess) the imgage displayed will also change  */
 
-function HangmanDisplay(props) {
+function HangmanImage(props) {
   let num = props.num;
   return (
     <div className="image-container">
@@ -37,4 +37,4 @@ function HangmanDisplay(props) {
   );
 }
 
-export default HangmanDisplay;
+export default HangmanImage;
