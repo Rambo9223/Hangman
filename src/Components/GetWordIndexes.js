@@ -1,9 +1,32 @@
-import { useEffect, useState } from "react";
+//import { useEffect, useState } from "react";
 
 /*This function uses useEffect & useState hooks to call from an api
 an array of 100 random numbers that we can pass to our dictionary filer */
 
-function GetWord() {
+function GetWordIndexes() {
+
+  function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+let indexes = []
+const min = 0;
+const max = 370102;
+const randomNumber = getRandomNumber(min, max);
+
+console.log(`Random number between ${min} and ${max}: ${randomNumber}`);
+
+for (let i = 0; indexes.length < 100; i++) {
+    const randomNumber = getRandomNumber(min, max);
+    if (!indexes.includes(randomNumber)) {
+        indexes.push(randomNumber);
+    }
+}
+
+  return indexes;
+
+}
+  /*
   const [index, setIndex] = useState(null); // will contain array of numbers
 
   const url =
@@ -46,6 +69,10 @@ function GetWord() {
 
   // if api retuns? return index, if not use preSetArray
   return index !== null ? index : preSetArray;
-}
 
-export default GetWord;
+  */
+
+
+
+
+export default GetWordIndexes;

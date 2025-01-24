@@ -12,7 +12,7 @@ function WordDisplay(props) {
   let word = props.word; // word
   let letter = props.letter; // user guess
   let guessList = props.guessList; // list of all guesses
-  console.log(word);
+  //console.log(word);
   function MappedWord() {
     if (word) {
       let gameWord = String(word); // word converted to string
