@@ -19,6 +19,9 @@ Type npm start , then enter, the required packages should install and once compi
 
 ![successful compile](<src/Images/Screenshot%20(36).png>)
 
+If you have any problems installing a local copy, you can find the deployed version on netlify here - 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/002aca8a-ab31-4b4a-a34e-174dfca9605d/deploy-status)](https://app.netlify.com/projects/hangmanr9223/deploys)
+
 4. How to Play
 
 Begin by clicking New Game or to read the rules you can click the help link.
